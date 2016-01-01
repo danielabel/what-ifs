@@ -26,7 +26,8 @@ It's written in [Remark](http://remarkjs.com/) and can be viewed through a
 browser or printed.
 
 ## A Pre-mortum workshop
-The workshop is a use of the set of questions to explore the cross-functional
-needs of a project by looking into the near future. Asking ourselves what's
-going to happen, what might happen and what do we need to do to manage the
-impact and risk well.
+[The workshop](https://github.com/danielabel/what-ifs/blob/master/pre-mortem.md)
+is a use of the set of questions to explore the cross-functional needs of a
+project by looking into the near future. Asking ourselves what's going to
+happen, what might happen and what do we need to do to manage the impact and
+risk well.
