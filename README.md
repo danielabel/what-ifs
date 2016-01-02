@@ -17,17 +17,18 @@ should be understood and owned by a wide group, so I started making less
 statements and asking different, less technical focused, questions so we can all
 prioritise and plan together.
 
-## A set of questions
-[The deck](https://rawgit.com/danielabel/what-ifs/master/what-ifs-remark-deck.html)
-presents the set of a set of questions we should ask when developing a new
-service or replacing an existing one.
+## How?
+### questions
+[These slides](https://rawgit.com/danielabel/what-ifs/master/what-ifs-remark-deck.html)
+present a set of questions that are worth asking when developing a new service
+or replacing an existing one.
 
-It's written in [Remark](http://remarkjs.com/) and can be viewed through a
-browser or printed.
+It's written in [Remark](http://remarkjs.com/) and should be easily viewed
+through most browsers. (It seems to also behave well when printed, but let me
+know if other formats would be useful.)
 
-## A Pre-mortum workshop
-[The workshop](https://github.com/danielabel/what-ifs/blob/master/pre-mortem.md)
-is a use of the set of questions to explore the cross-functional needs of a
-project by looking into the near future. Asking ourselves what's going to
-happen, what might happen and what do we need to do to manage the impact and
-risk well.
+### workshop
+[The Pre-Mortum Workshop](https://github.com/danielabel/what-ifs/blob/master/pre-mortem.md)
+looks into the near future, using the set of questions to explore the
+cross-functional needs of a project. By asking what's likely to happen, we
+can explore what do we need to do to manage the impact and risk well.
