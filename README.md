@@ -19,7 +19,7 @@ prioritise and plan together.
 
 ## How?
 ### questions
-[These slides](https://rawgit.com/danielabel/what-ifs/master/what-ifs-remark-deck.html)
+[These slides](https://rawgit.com/danielabel/what-ifs/c3af99e6db3521adf12e3435126675af1ca5f379/what-ifs-remark-deck.html)
 present a set of questions that are worth asking when developing a new service
 or replacing an existing one.
 
