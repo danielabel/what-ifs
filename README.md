@@ -18,10 +18,11 @@ statements and asking different, less technical focused, questions so we can all
 prioritise and plan together.
 
 ## How?
-### questions
+### questions (to start coversations)
 [These slides](https://rawgit.com/danielabel/what-ifs/c3af99e6db3521adf12e3435126675af1ca5f379/what-ifs-remark-deck.html)
 present a set of questions that are worth asking when developing a new service
-or replacing an existing one.
+or replacing an existing one. I've written open questions without technical
+jargon, with a view of starting as wide a conversation as possible.
 
 It's written in [Remark](http://remarkjs.com/) and should be easily viewed
 through most browsers. (It seems to also behave well when printed, but let me
