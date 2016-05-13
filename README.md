@@ -19,7 +19,7 @@ prioritise and plan together.
 
 ## How?
 ### questions (to start conversations)
-[These slides](https://cdn.rawgit.com/danielabel/what-ifs/bb6f2a22ece4bc391ff2a9dc35ccbcba8c296de3/what-ifs-remark-deck.html)
+[These slides](http://cdn.rawgit.com/danielabel/what-ifs/bb6f2a22ece4bc391ff2a9dc35ccbcba8c296de3/what-ifs-remark-deck.html)
 present a set of questions that are worth asking when developing a new service
 or replacing an existing one. I've written open questions without technical
 jargon, with a view of starting as wide a conversation as possible.
