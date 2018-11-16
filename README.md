@@ -5,17 +5,18 @@ digital services to do. To help us to see the software and infrastructure
 needed to help manage business risk.
 
 ## Why?
-Many projects have a good grip on the functional requirements - the view of the
-likely user needs are shared across a cross disciplined group which collaborates
+Many projects have a good grip on the functional requirements. These user needs 
+are shared across a cross disciplined group which can then collaborate
 to discover and build a service.
 
-However the Cross (or Non) Functional Requirements - the requirements that
+The Cross (or Non) Functional Requirements - the requirements that
 support the user needs at scale - often get forgotten, ignored or not valued.
 
-I feel that, like the functional requirements, the Cross Functional Requirements
-should be understood and owned by a wide group, so I started making less
-statements and asking different, less technical focused, questions so we can all
-prioritise and plan together.
+Like the functional requirements, the Cross Functional Requirements
+should be understood and owned by a wide group.
+
+I've started making less statements and asking different, less technical focused, 
+questions so we can all prioritise and plan together.
 
 ## How?
 ### questions (to start conversations)
