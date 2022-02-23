@@ -20,7 +20,7 @@ questions so we can all prioritise and plan together.
 
 ## How?
 ### questions (to start conversations)
-[These slides](https://cdn.rawgit.com/danielabel/what-ifs/3f83f6131c625dcfef885033883e8f8c06b8b626/what-ifs-remark-deck.html)
+[These slides](https://danielabel.github.io/what-ifs/what-ifs-remark-deck.html)
 present a set of questions that are worth asking when developing a new service
 or replacing an existing one. I've written open questions without technical
 jargon, with a view of starting as wide a conversation as possible.
