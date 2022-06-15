@@ -5,161 +5,213 @@
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 
-      body { font-family: 'Droid Serif'; }
+      body { 
+        font-family: 'Yanone Kaffeesatz';
+        font-size: 1.6em;  
+      }
+      .title h1 {
+      	font-family: 'Bebas Neue';
+      }
+      .brand {
+      	font-family: 'Bebas Neue';
+      }
+
       h1, h2, h3 {
         font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
+        font-weight: 400;
+        margin-bottom: 0;
+        margin-top: 10px;
       }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      h1 { font-size: 3.5em; }
+      h2 { font-size: 3em; }
+      h3 { font-size: 1.6em; }
+      
+	  .sectionTitle {
+	    text-align: center;
+	    vertical-align: middle;
+		font-family: 'Bebas Neue';
+	  }
+	
+      .headerR {
+		position: absolute;
+	    top: 1rem;
+    	right: 2rem;
+	    font-size: 1.6em;
+    	text-align: right;
+	  }
+
+      .headerL {
+   		 position: absolute;
+    	top: 1rem;
+    	left: 2rem;
+    	font-size: 1.6em;
+    	text-align: right;
+	 }
     </style>
   </head>
   <body>
     <textarea id="source">
 
-class: center, middle
+class: center, middle, title
 
-# 'What if?'
+# 'What if!?' <br>(and 'what then?')
 
 A set of questions to challenge our thinking about what we need our digital services to do.
 
 https://github.com/danielabel/what-ifs
 
-by @twicezer0
+by [Dan Abel](https://twitter.com/twicezer0)
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="https
   ://purl.org/dc/terms/" property="dct:title">'What If?'</span> by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Dan Abel</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
----
-class: center, middle
 
-# What if the service is used far more than expected?
 ---
+name: section
+layout: true
 class: center, middle
+section: &nbsp;
 
-# What if an important user disputes our data or costs?
+#.sectionTitle[{{section}}]
+
+.headerR[.brand['What if!?' <br>(and 'what then?')]]
+
 ---
+name: card
+layout: true
 class: center, middle
+what: &nbsp;
+section: &nbsp;
 
-# What if the service goes down in the middle of the day?
+
+# {{what}}
+
+.headerL[.brand[{{section}}]]
+.headerR[.brand['What if!?'<br>(and 'what then?')]]
+
 ---
-class: center, middle
-
-# What if the service goes down in the middle of the night?
+name: Dcard
+layout: true
+template: card
+section: Disasters
 ---
-class: center, middle
-
-# What if a user gets access to another user’s account?
+name: Wcard
+layout: true
+template: card
+section: Wildcards
 ---
-class: center, middle
-
-# What if an external person gets access to our private data stores?
+name: Scard
+layout: true
+template: card
+section: Delivery and Scaling Challenges
 ---
-class: center, middle
+template: section
+section: Disasters
 
-# What if a website claims to have access to parts of our systems that aren't public?
 ---
-class: center, middle
-
-# What if our servers gets damaged or disconnected from the internet?
+template: Dcard
+what: What if the service is used far more than expected?
 ---
-class: center, middle
-
-# What if we lose critical data through a mistake or failure?
+template: Dcard
+what: What if an important user disputes our data or costs?
 ---
-class: center, middle
-
-# What if a security hole in an externally-owned component is announced?
+template: Dcard
+what: What if the service goes down in the middle of the day?
 ---
-class: center, middle
-
-# What if a change to our service needs to be made ASAP?
+template: Dcard
+what: What if the service goes down in the middle of the night?
 ---
-class: center, middle
-
-# What if a change to our service breaks something when it's released?
+template: Dcard
+what: What if a user gets access to another user’s account?
 ---
-class: center, middle
-
-# What if our public service is attacked - with load applied until the service goes down?
+template: Dcard
+what: What if an external person gets access to our private data stores?
 ---
-class: center, middle
-
-# What if services we rely on become sluggish or not available?
+template: Dcard
+what:  What if a website claims to have access to parts of our systems that aren't public?
 ---
-class: center, middle
-
-# What if someone finds a way to get the service/product without paying?
+template: Dcard
+what:  What if our servers gets damaged or disconnected from the internet?
 ---
-class: center, middle
-
-# What if we discover missing features via user feedback after we launch?
+template: Dcard
+what:  What if we lose critical data through a mistake or failure?
 ---
-class: center, middle
-
-# What if we need data from our old systems?
+template: Dcard
+what:  What if a security hole in an externally-owned component is announced?
 ---
-class: center, middle
-
-# Wildcard: What’s the biggest harm the service could do?
+template: Dcard
+what:  What if a change to our service needs to be made ASAP?
 ---
-class: center, middle
-
-# Wildcard: What’s the biggest harm something could do to our service?
+template: Dcard
+what:  What if a change to our service breaks something when it's released?
 ---
-class: center, middle
-
-# Wildcard: What do we do when the unexpected happens?
+template: Dcard
+what:  What if our public service is attacked - with load applied until the service goes down?
 ---
-class: center, middle
-
-# Wildcard: What will we lose sleep over?
+template: Dcard
+what:  What if services we rely on become sluggish or not available?
 ---
-class: center, middle
-
-# Wildcard: What don’t we know?
+template: Dcard
+what:  What if someone finds a way to get the service/product without paying?
 ---
-class: center, middle
-
-# Wildcard: What are the other demands on our people?
+template: Dcard
+what:  What if we discover missing features via user feedback after we launch?
 ---
-class: center, middle
-
-# Planning: How do we support our new or additional users?
+template: Dcard
+what:  What if we need data from our old systems?
 ---
-class: center, middle
-
-# Planning: How do we plan to bring users on the service AND adapt to what we learn?
+template: section
+section: Wildcards 
 ---
-class: center, middle
-
-# Planning: How safe do we need to keep our secrets?
+template: Wcard
+what:  What’s the biggest harm the service could do?
 ---
-class: center, middle
-
-# Planning: How do we release safely and predictably?
+template: Wcard
+what:  What’s the biggest harm something could do to our service?
 ---
-class: center, middle
-
-# Planning: How long do we expect the service to exist in its current form?
+template: Wcard
+what:  What do we do when the unexpected happens?
 ---
-class: center, middle
-
-# Planning: How quickly should we know something has gone wrong with our service?
+template: Wcard
+what:  What will we lose sleep over?
 ---
-class: center, middle
-
-# Planning: How fast might we need to scale when we are successful?
+template: Wcard
+what:  What don’t we know?
 ---
-class: center, middle
-
-# Planning: How will our way of working need to change when our services are live?
+template: Wcard
+what:  What are the other demands on our people?
 ---
-class: center, middle
-
-# Planning: How are we vulnerable to other organisations and departments?
+template: section
+section: Delivery and Scaling Challenges
+---
+template: Scard
+what: How do we support our new or additional users?
+---
+template: Scard
+what: How do we plan to bring users on the service AND adapt to what we learn?
+---
+template: Scard
+what: How safe do we need to keep our secrets?
+---
+template: Scard
+what: How do we release safely and predictably?
+---
+template: Scard
+what: How long do we expect the service to exist in its current form?
+---
+template: Scard
+what: How quickly should we know something has gone wrong with our service?
+---
+template: Scard
+what: How fast might we need to scale when we are successful?
+---
+template: Scard
+what: How will our way of working need to change when our services are live?
+---
+template: Scard
+what: How are we vulnerable is our delivery to other organisations and departments?
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
